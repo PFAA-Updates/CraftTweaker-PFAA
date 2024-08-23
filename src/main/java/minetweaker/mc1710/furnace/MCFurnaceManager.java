@@ -51,8 +51,7 @@ public class MCFurnaceManager implements IFurnaceManager {
             }
         }
 
-        if (toRemove.isEmpty()) {
-        } else {
+        if (toRemove.isEmpty()) {} else {
             MineTweakerAPI.apply(new RemoveAction(toRemove, toRemoveValues));
         }
     }
