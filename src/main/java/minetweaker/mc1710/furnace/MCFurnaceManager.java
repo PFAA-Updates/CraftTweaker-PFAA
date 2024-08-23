@@ -52,7 +52,6 @@ public class MCFurnaceManager implements IFurnaceManager {
         }
 
         if (toRemove.isEmpty()) {
-            MineTweakerAPI.logWarning("No furnace recipes for " + output.toString());
         } else {
             MineTweakerAPI.apply(new RemoveAction(toRemove, toRemoveValues));
         }
