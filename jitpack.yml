@@ -1,5 +1,5 @@
 before_install:
   - ./gradlew setupCIWorkspace
 
-dk:
+jdk:
   - openjdk9
