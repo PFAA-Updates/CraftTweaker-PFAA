@@ -1,3 +1,8 @@
+#### 3.4.2-PFAA
+
+* Add maven-publish for jitpack integration
+* we can now use -PFAA instead of customized. Permission given by origion mod dev.
+
 #### 3.4.1-Customized
 
 * Create project changelog
